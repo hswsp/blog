@@ -1,0 +1,1 @@
+tree capsule/ -I '*.sh' -J > data.json

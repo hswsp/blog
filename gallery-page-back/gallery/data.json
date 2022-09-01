@@ -1,0 +1,13 @@
+[
+  {"type":"directory","name":"capsule/","contents":[
+    {"type":"file","name":"IMG_2774.jpg"},
+    {"type":"file","name":"IMG_2836.jpg"},
+    {"type":"file","name":"IMG_2841.jpg"},
+    {"type":"directory","name":"thumbnails","contents":[
+      {"type":"file","name":"thumb_IMG_2774.jpg"},
+      {"type":"file","name":"thumb_IMG_2836.jpg"},
+      {"type":"file","name":"thumb_IMG_2841.jpg"}
+    ]}
+  ]},
+  {"type":"report","directories":1,"files":6}
+]
