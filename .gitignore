@@ -1,2 +1,9 @@
-**/.DS_Store
 **/.vscode/
+public/
+.deploy*/
+
+Thumbs.db
+db.json
+*.log
+_multiconfig.yml
+**/.DS_Store
