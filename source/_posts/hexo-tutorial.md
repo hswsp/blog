@@ -391,7 +391,7 @@ yuxiaoshao.top
 
 **补全相关信息**
 
-![4f66317234eb658ca59865dbdb9e5fc2258.jpg](http://cdn.spphoto.top/img/4f66317234eb658ca59865dbdb9e5fc2258-20250711002954633.jpg)
+![4f66317234eb658ca59865dbdb9e5fc2258.jpg](https://cdn.spphoto.top/img/4f66317234eb658ca59865dbdb9e5fc2258-20250711002954633.jpg)
 
 具体参见[证书申请指南](https://developer.qiniu.com/ssl/3667/ssl-certificate-of-free-dns-validation-guide)
 
