@@ -1051,6 +1051,12 @@ links:
       link: "https://github.com/hswsp",
       avatar: "/img/dog_profile.jpeg"
     }
+    - {
+      title: "RedNote",
+      intro: "My RedNote",
+      link: "https://www.xiaohongshu.com/user/profile/629ec6f8000000001902a0d8?xsec_token=YBRCRMcYs1PQ1tC50uaU6rOpZNCNIVnUMMFdZqrV29SQA%3D&xsec_source=app_share&xhsshare=CopyLink&appuid=629ec6f8000000001902a0d8&apptime=1752166090&share_id=78d6632180114d568d5512d43a4282f3&share_channel=copy_link",
+      avatar: "https://cdn.spphoto.top/img/f76b7b07845f569e.webp"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
