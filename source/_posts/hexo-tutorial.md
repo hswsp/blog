@@ -141,6 +141,14 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 hexo clean && hexo g && hexo d
 ```
 
+推送过程中可能因为数据量大而失败，使用下面命令解决：
+
+```
+git config --global http.postBuffer 524288000
+```
+
+（将 buffer 增加到 500MB）
+
 ## 发布一篇博客
 
 1. 在 Git Bash 里，所在路径还是 /d/blog。输入 `hexo new “My First Post”`
