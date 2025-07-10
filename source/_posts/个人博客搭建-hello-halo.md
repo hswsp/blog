@@ -166,7 +166,9 @@ sudo service apache2 restart
 
 > /bin/sh -> dash
 
-![默认sh为dash](https://www.pianshen.com/images/721/40140ee57901eaf301c7084e8ee98489.png)
+```bash
+lrwxrwxrwx 1 root root 4 Jul 17 22:49 /bin/sh -> dash
+```
 
 我们会发现Ubuntu默认采用的是 dash
 
@@ -178,11 +180,17 @@ sudo service apache2 restart
 
 > sudo dpkg-reconfigure dash
 
-![修改默认sh为bash](https://www.pianshen.com/images/319/3b0b7fdaf6219cda6e67d8c315874197.png)
+![选择 NO](http://cdn.spphoto.top/img/dedd7b161aae0864b7e3e945d83bbb50.png)
 
 然后选择**否**
 
-![修改默认sh为bash](https://www.pianshen.com/images/130/685231e5eddc2d52cbde9b05a50c7292.png)
+```bash
+$ sudo dpkg-reconfigure dash
+Removing 'diversion of /bin/sh to /bin/sh.distrib by dash'
+Adding 'diversion of /bin/sh to /bin/sh.distrib by bash'
+Removing 'diversion of /usr/share/man/man1/sh.1.gz to /usr/share/man/man1/sh.distrib.1.gz by dash'
+Adding 'diversion of /usr/share/man/man1/sh.1.gz to /usr/share/man/man1/sh.distrib.1.gz by bash'
+```
 
 成功后再执行
 
@@ -190,7 +198,10 @@ sudo service apache2 restart
 
 结果是： `/bin/sh -> bash`
 
-![默认是修改为bash](https://www.pianshen.com/images/696/87234435141451583081336ae9e28aa0.png)
+```bash
+$ ls -al /bin/sh
+lrwxrwxrwx 1 root root 4 Aug 16 23:00 /bin/sh -> bash
+```
 
 修改成功！
 

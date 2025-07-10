@@ -7,3 +7,4 @@ db.json
 *.log
 _multiconfig.yml
 **/.DS_Store
+.history/
