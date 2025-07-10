@@ -135,6 +135,12 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
+每次修改之后，使用下面命令重新部署：
+
+```bash
+hexo clean && hexo g && hexo d
+```
+
 ## 发布一篇博客
 
 1. 在 Git Bash 里，所在路径还是 /d/blog。输入 `hexo new “My First Post”`
