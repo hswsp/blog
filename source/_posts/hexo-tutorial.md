@@ -148,7 +148,7 @@ hexo clean && hexo g && hexo d
 3. 回到 Git Bash，输入 `hexo g`
 4. 输入 `hexo s`
 5. 前往 http://localhost:4000/ 查看成果。
-   ![在这里插入图片描述](http://cdn.spphoto.top/img/20250710232040.png)
+   ![在这里插入图片描述](https://cdn.spphoto.top/img/20250710232040.png)
 
 ## 更换主题
 
@@ -212,7 +212,7 @@ $ git clone https://github.com/fluid-dev/hexo-theme-fluid.git themes/fluid
 
 很多知名项目会把自己的文档托管在 .js.org 域名下面，作为开发者，拥有一个是一件很酷的事。官网：[jsorg](https://js.org/)
 
-![在这里插入图片描述](http://cdn.spphoto.top/img/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzcxMzEwNQ==,size_16,color_FFFFFF,t_70-20250710234243907.png)
+![在这里插入图片描述](https://cdn.spphoto.top/img/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzcxMzEwNQ==,size_16,color_FFFFFF,t_70-20250710234243907.png)
 
 1. 在你的github pages里的博客项目下新建CNAME文件，内容为你需要申请的js.org域名，例如：
 
@@ -224,7 +224,7 @@ simonhans.js.org
 
 3. 进入js.org官方仓库：https://github.com/js-org/js.org 点击右上角的fork，你会发现这个仓库被fork到自己名下了。
 
-   ![在这里插入图片描述](http://cdn.spphoto.top/img/20201028120351288.png)
+   ![在这里插入图片描述](https://cdn.spphoto.top/img/20201028120351288.png)
 
 4. 修改fork过来的仓库中`cnames_active.js`文件，注意他是按照字母排序的，请找到相应位置写入。例如：
 
@@ -236,11 +236,11 @@ simonhans.js.org
 
 5. 回到你fork的仓库，点击Pull Request，并提交它。然后就是等待审核
 6. 审核通过你会收到下图所示邮件：
-   ![在这里插入图片描述](http://cdn.spphoto.top/img/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzcxMzEwNQ==,size_16,color_FFFFFF,t_70-20250710234320465.png)
+   ![在这里插入图片描述](https://cdn.spphoto.top/img/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzcxMzEwNQ==,size_16,color_FFFFFF,t_70-20250710234320465.png)
 7. 通过后不要着急，人家只是通过了你的申请，但是还没给你解析呢，解析后会收到下图所示邮件：
-   ![在这里插入图片描述](http://cdn.spphoto.top/img/20201028122330166-20250711000203893.png)
+   ![在这里插入图片描述](https://cdn.spphoto.top/img/20201028122330166-20250711000203893.png)
 8. 现在就可以用你申请的域名访问你的博客了，我的博客:
-   ![在这里插入图片描述](http://cdn.spphoto.top/img/watermark%2Ctype_ZmFuZ3poZW5naGVpdGk%2Cshadow_10%2Ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzcxMzEwNQ%3D%3D%2Csize_16%2Ccolor_FFFFFF%2Ct_70-20250710234350104.png)
+   ![在这里插入图片描述](https://cdn.spphoto.top/img/watermark%2Ctype_ZmFuZ3poZW5naGVpdGk%2Cshadow_10%2Ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzcxMzEwNQ%3D%3D%2Csize_16%2Ccolor_FFFFFF%2Ct_70-20250710234350104.png)
 
 
 
@@ -262,7 +262,7 @@ simonhans.js.org
 
 我是在阿里云购买的域名，这里以阿里云的操作为例，登陆阿里云，依次进入`控制台-万网-域名` 找到已购买的域名点击解析按钮，添加三项解析
 
-![image](http://cdn.spphoto.top/img/5615781-03cc818f75427083.webp)
+![image](https://cdn.spphoto.top/img/5615781-03cc818f75427083.webp)
 
 
 
@@ -295,7 +295,7 @@ simonhans.js.org
 
 进入设置，找到 Custom domain添加域名后保存即可，它会自动在你的repository相应的branch里生成一个CNAME的文件。
 
-![image](http://cdn.spphoto.top/img/webp)
+![image](https://cdn.spphoto.top/img/webp)
 
 但是由于是静态博客，每次Hexo都会重新把之前的所有内容删除重写。所以我们需要把这个CNAME写到我们的Hexo源文件里。
 
@@ -313,7 +313,7 @@ yuxiaoshao.top
 
 下面进行GitHub的设置，打开GitHub仓库的settings，在custom domain 中填上刚申请的域名（如果是用namecheap的域名，GitHub Pages会自动填充域名），勾选enforce https，使能https支持，如下图所示。
 
-![img](http://cdn.spphoto.top/img/2787497-03fa5a9ab8194014.webp)
+![img](https://cdn.spphoto.top/img/2787497-03fa5a9ab8194014.webp)
 
 
 
@@ -323,7 +323,7 @@ yuxiaoshao.top
 
 1. 创建七牛云存储空间
 
-   ![image-20220330002946984](http://cdn.spphoto.top/img/6c4fcf368c805a142c67076eef32a3e1.png)
+   ![image-20220330002946984](https://cdn.spphoto.top/img/6c4fcf368c805a142c67076eef32a3e1.png)
 
 2. 给自己的域名添加二级域名
 
@@ -333,27 +333,27 @@ yuxiaoshao.top
 
 选择解析
 
-![image-20220330003123314](http://cdn.spphoto.top/img/0747689e1cdc2205b238140aa93e8416.png)
+![image-20220330003123314](https://cdn.spphoto.top/img/0747689e1cdc2205b238140aa93e8416.png)
 
 然后添加一个二级域名，这个完了先不要关，等下还要改
 
-![image-20220330003356467](http://cdn.spphoto.top/img/8de4e1820d58da359b6b48fada2b63ce.png)
+![image-20220330003356467](https://cdn.spphoto.top/img/8de4e1820d58da359b6b48fada2b63ce.png)
 
 3. 绑定二级域名
 
 进入[七牛云域名绑定页面](https://portal.qiniu.com/cdn/domain)，点击添加域名，然后下图只需要把刚刚配置的域名写上，然后其余默认就行，点击创建
 
-![image-20220330003544871](http://cdn.spphoto.top/img/66cd88be1aa780a8fda147c1faea7b51.png)
+![image-20220330003544871](https://cdn.spphoto.top/img/66cd88be1aa780a8fda147c1faea7b51.png)
 
 这里由于是github.io，没有进行备案，只能申请海外服务器。同时在绑定域名后会让你进行TXT记录验证。输入它给的主机名和主机值新增一条域名解析即可。
 
 然后回到上一个页面，跟着下图操作
 
-![image-20220330003733736](http://cdn.spphoto.top/img/61f324a844768635a01bb06b50866447.png)
+![image-20220330003733736](https://cdn.spphoto.top/img/61f324a844768635a01bb06b50866447.png)
 
-![image-20220330003847097](http://cdn.spphoto.top/img/4699773498babd6a54a6016f80e908e1.png)
+![image-20220330003847097](https://cdn.spphoto.top/img/4699773498babd6a54a6016f80e908e1.png)
 
-![image-20220330003847097](http://cdn.spphoto.top/img/4699773498babd6a54a6016f80e908e1-20250711002202305.png)
+![image-20220330003847097](https://cdn.spphoto.top/img/4699773498babd6a54a6016f80e908e1-20250711002202305.png)
 
 然后回到刚刚添加域名的页面，点击刚刚添加的域名，把www.baidu.com改成刚刚复制的东西
 
@@ -367,7 +367,7 @@ yuxiaoshao.top
 - 网址是刚刚绑定的那个二级域名。注意加上http。
 - 存储区域：七牛云的存储区域（华东 z0，华北 z1，华南 z2，北美 na0，东南亚 as0 ），根据你空间所在的区域，填对应的代码
 
-![image-20220330004201058](http://cdn.spphoto.top/img/842bafe5e6389bee18752ec69c1a7930.png)
+![image-20220330004201058](https://cdn.spphoto.top/img/842bafe5e6389bee18752ec69c1a7930.png)
 
 # ssl免费证书申请
 
@@ -375,11 +375,11 @@ yuxiaoshao.top
 
 故而在七牛云申请一个免费的SSL证书。**在ssl证书服务中选择购买证书，选择免费的TrustAsia证书**。
 
-![8b5962587655cdfbe59cb805083481abb2e.jpg](http://cdn.spphoto.top/img/8b5962587655cdfbe59cb805083481abb2e.jpg)
+![8b5962587655cdfbe59cb805083481abb2e.jpg](https://cdn.spphoto.top/img/8b5962587655cdfbe59cb805083481abb2e.jpg)
 
 **核对信息，确认支付即可**
 
-![ba24df3b5b7785726ee3a084c73ebfb7929.jpg](http://cdn.spphoto.top/img/ba24df3b5b7785726ee3a084c73ebfb7929.jpg)
+![ba24df3b5b7785726ee3a084c73ebfb7929.jpg](https://cdn.spphoto.top/img/ba24df3b5b7785726ee3a084c73ebfb7929.jpg)
 
 **补全相关信息**
 
@@ -436,7 +436,7 @@ HTML
 
 这里在Github上创建了一个Repository用来做图床。文件夹结构如图:
 
-![Screenshot 2025-07-10 at 11.57.12 PM](http://cdn.spphoto.top/img/Screenshot%202025-07-10%20at%2011.57.12%E2%80%AFPM.png)
+![Screenshot 2025-07-10 at 11.57.12 PM](https://cdn.spphoto.top/img/Screenshot%202025-07-10%20at%2011.57.12%E2%80%AFPM.png)
 
 这样`jsDelivr`这种CDN生成的图片链接就是按`https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径`格式给出的。
 
@@ -567,7 +567,7 @@ node gallery/create.js
 
 将`photos.json`拷贝到博客目录下的`photos`
 
-![Screenshot 2025-07-11 at 12.05.13 AM](http://cdn.spphoto.top/img/Screenshot%202025-07-11%20at%2012.05.13%E2%80%AFAM.png)
+![Screenshot 2025-07-11 at 12.05.13 AM](https://cdn.spphoto.top/img/Screenshot%202025-07-11%20at%2012.05.13%E2%80%AFAM.png)
 
 ## 加载 js和css文件
 
